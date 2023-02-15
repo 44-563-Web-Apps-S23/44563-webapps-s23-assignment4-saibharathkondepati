@@ -21,6 +21,7 @@
     font-size: 20px;
     font-style: inherit;
     font: bold;
+    filter:blur(0.5);
 
 }
 .HEROINE{
@@ -29,3 +30,45 @@
    font:bold;
    font-style: inherit;
 }
+.HEROINE:hover{
+    text-shadow: 2px 2px blue;
+}
+.COMEDIAN:hover{
+    text-shadow: 2px 2px brown;
+}
+h6:hover {
+    text-shadow: 20px 20px 30px gray;
+    border-bottom: black solid;
+    font-size: 30px;
+}
+table { 
+    color: black;
+    margin: 25px 25px 25px 25px;   
+    
+    }
+table,th,td{
+        padding: 20px;
+        border: 1px solid black;
+        border-collapse: collapse;
+    
+    }
+td {
+       
+        color:red;
+        text-align: center;
+    
+    }
+    th{
+          
+        font: bold;
+        color: black;
+        text-align: center;
+        background-color: bisque;
+    }
+tr:nth-child(even) {
+        background-color: lemonchiffon;
+      }
+      tr:nth-child(odd) {
+        background-color: greenyellow;
+      }
+      
