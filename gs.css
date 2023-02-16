@@ -25,20 +25,21 @@
 
 }
 .HEROINE{
-   color: pink;
+   color: darkolivegreen;
    font-size: 20px;
    font:bold;
    font-style: inherit;
 }
 .HEROINE:hover{
-    text-shadow: 2px 2px blue;
+    text-shadow: 2px 2px 5px blue;
+
 }
-.COMEDIAN:hover{
+.name.COMEDIAN:hover{
     text-shadow: 2px 2px brown;
 }
 h6:hover {
     text-shadow: 20px 20px 30px gray;
-    border-bottom: black solid;
+    border:1px black solid;
     font-size: 30px;
 }
 table { 
@@ -71,4 +72,17 @@ tr:nth-child(even) {
       tr:nth-child(odd) {
         background-color: greenyellow;
       }
-      
+ul{
+        display: flex;
+        margin: 20px;
+        border: 0cm;
+
+      }
+      li{
+        margin-left: 20px;
+        list-style: none;
+        color: blue;
+      }
+      li a{
+        text-decoration: none;
+      }
